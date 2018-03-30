@@ -1,0 +1,44 @@
+.cnav{
+    width: 100%;
+    background-color: #444;
+    color: white;
+    margin-left:0px;
+    padding: 10px;
+}
+
+brand{
+    margin: 20px;
+    font-size: 25px;
+}
+
+ham{
+    float: right;
+    margin-right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.cnav-xpand{
+    display: none;
+    width: 100%;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+}
+
+.cnav-xpand > ul > li > a > p{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+li > a:active{
+    color: white;
+}
+
+li > a:any-link{
+    color: white;
+}
+
+.cnav-xpand > ul > li:hover{
+    background-color: red;
+}
